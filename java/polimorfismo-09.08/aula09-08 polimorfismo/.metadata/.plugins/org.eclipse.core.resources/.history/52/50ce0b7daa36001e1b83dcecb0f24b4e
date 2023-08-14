@@ -1,0 +1,8 @@
+package aulinha;
+
+public class Multiplica extends operacaoMatematica {
+	public double calcular(double x, double y) {
+		System.out.println("--- Mutiplica ---");
+		return x*y;
+	}
+}

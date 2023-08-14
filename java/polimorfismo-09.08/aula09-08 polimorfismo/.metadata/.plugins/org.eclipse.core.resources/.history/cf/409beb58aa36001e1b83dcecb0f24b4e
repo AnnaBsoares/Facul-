@@ -1,0 +1,7 @@
+package aulinha;
+
+public class Multiplica extends operacaoMatematica {
+	public double calcular(double x, double y) {
+		return x*y;
+	}
+}

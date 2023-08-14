@@ -1,0 +1,6 @@
+package aulinha;
+
+public class soma extends operacaoMatematica{
+//sobrescrita do metodo calcular 
+	
+}

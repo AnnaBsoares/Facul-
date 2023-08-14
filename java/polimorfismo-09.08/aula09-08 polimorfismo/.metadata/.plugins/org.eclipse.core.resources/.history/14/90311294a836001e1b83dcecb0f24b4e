@@ -1,0 +1,14 @@
+package aulinha;
+
+public class  testeOperacaoMatematica {
+	public void realizaOperacao(operacaoMatematica op, double x, double y) {
+		System.out.println(op.calcular(x, y));
+	}
+	
+	public static void main(String[] args) {
+		testeOperacaoMatematica teste= new testeOperacaoMatematica();
+		teste.realizaOperacao(new soma(), 10,20);
+		teste.realizaOperacao(new Mutiplica(), 10, 10);
+		
+	}
+}

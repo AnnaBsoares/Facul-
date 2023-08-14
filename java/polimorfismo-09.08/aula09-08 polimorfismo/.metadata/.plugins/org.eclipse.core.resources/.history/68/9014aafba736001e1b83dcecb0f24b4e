@@ -1,0 +1,13 @@
+package aulinha;
+
+public class  realizaOperacao {
+	public void calculaOperacao(operacaoMatematica op, double x, double y) {
+		System.out.println(op.calcular(x, y));
+	}
+	
+	public static void main(String[] args) {
+		 realizaOperacao teste= new realizaOperacao();
+		teste.calculaOperacao(null, 0, 0);
+		
+	}
+}
